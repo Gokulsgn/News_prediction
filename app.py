@@ -25,7 +25,7 @@ st.markdown("""
 
     /* Stylish form input fields */
     .stTextInput > label, .stTextArea > label, .stSelectbox > label {
-        color: #00FF7F; /* Spring Green for input labels */
+        color: #ca010e; /* Spring Green for input labels */
     }
 
     /* Success and error message styling */
@@ -53,13 +53,13 @@ st.markdown("""
 # Title and introduction
 st.title("📊 Machine Learning Prediction App")
 st.markdown("""
-    <p style='color:#FFD700;'>Welcome to the ML Prediction App! Fill in the details below to get predictions based on our trained model. 
-    Enjoy a sleek and user-friendly experience! 😊</p>
+    <p style='color:#b2b2b2;'>Welcome to the ML Prediction App! Fill in the details below to get predictions based on our trained model. 
+    Enjoy a sleek and user-friendly experience! </p>
     """, unsafe_allow_html=True)
 
 # Form for user inputs
 with st.form(key='prediction_form'):
-    st.subheader("Enter the Details:")
+    st.subheader("Enter the Details :")
     
     # Input fields
     id_input = st.text_input("🆔 ID", "")
